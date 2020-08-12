@@ -8,6 +8,14 @@ body,html{
     padding: 0;
     margin: 0;
 }
+.swiper-container {
+    width: 600px;
+    height: 300px;
+    display: flex;
+}
+.swiper-wrapper{
+    display: flex;
+}
 *,*::before,*::after{
     text-decoration: none;
     box-sizing: border-box;
@@ -62,6 +70,7 @@ body,html{
     width: 100%;
     height: 100%;
     background-image:  url(../images/banner.jpg);
+    transition: all 1s;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -167,57 +176,71 @@ body,html{
     padding-top: 2.5rem;
 }
 /* Product */
-.products{
-    justify-content: center;
-    font-weight: 900;
-    text-transform: uppercase;
-    
-}
-.products > p{
-    
+ .products > p{
+    text-align: center;
     font-size: .6rem;
     letter-spacing: .5rem;
 }
 .products > h1{
+    text-align: center;
     margin: 1rem 0;
     font-size: 1.5rem;
-}
+} 
+
 .product-container{
     width: 100%;
-}
-.product-img{
-    display: flex;
-    width: 100%;
+   height: 200px;
+    margin: 0 auto;
     overflow: hidden;
-    
+    position: relative;
+}
+
+.product-img{
+    transition: all 1s ease;
+    display: flex !important;
+    position: absolute;
+}
+.product-img img{
+    width: 95%;
+   height: 100%;
 }
 .product-img-slect{
-   
-    margin: 1rem;
-    position: relative;
-    /* transform: translateX(-100%); */
+    text-align: center;
+   box-sizing: border-box;
+   position: relative;
 }
-.product-img-slect.slect-home,.product-img-slect.slect-trevel1 {
-    margin-left: 0;
+.product-img-slect span{
+    position: absolute;
+    top: 0;
+    right: 50%;
 }
-.product-img-slect img {
-    
-    max-width: 11rem;
-    height: auto;
+.product-container-btn{
+    position: absolute;
+    top: 50%;
+    z-index: 3;
+}
+.product-container-btn-right{
+    right: 0;
 }
 .product-img-slect span{
     color: #ffff;
     position: absolute;
     bottom: 0;
     width: 100%;
+    height: 100%;
     right: 0;
     padding: 2rem 0;
     text-align: center;
     font-size: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    padding-bottom: 1rem;
 }
 .product-img-slect span i{
     padding: 0 .4rem;
-}
+}   
 /* featured */
 .featured{
     justify-content: center;
