@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>insure life</title>
     <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="../fontawesome-free-5.13.1-web/css/all.min.css">
-    
+
 </head>
+
 <body>
     <!-- <div class="btn-totop">
         <p>to top</p>
@@ -18,7 +20,9 @@
             <div class="top-nav-left">
                 <p>adress :<span>123 - piccadilly, london,england(view map)</span></p>
             </div>
-            <img src="../images/logo.png" alt="" class="logo">
+            <div class="top-nav-logo">
+           <img src="../images/logo.png" alt="" class="logo">
+        </div>
             <div class="top-nav-right df">
                 <p>email: <span>info.sinsurlife@gmail</span></p>
                 <p>hotline :<span>+49 1256 6521</span></p>
@@ -26,40 +30,41 @@
         </div>
     </nav>
     <header class="wrapper df" id="wrapper">
-        <button class=" wrapper-icon wrapper-icon-prev"><i class=" fas fa-caret-left"></i></button>
         <div class="wrapper-container df">
-            
-     <div class="navbar">
-         <ul>
-             <li><a href="#"><span>home</span><i class="fas fa-caret-down"></i></a></li>
-            <li><a href="#"><span>insurance</span><i class="fas fa-caret-down"></i></a></li>
-        <li><a href="#"><span>page</span><i class="fas fa-caret-down"></i></a></li>
-    <li> <a href="#">about</a></li>
-         </ul>
-     </div>
-     <div class="wrapper-content df">
-            <p>insur life company</p>
-           <h1>welcome to insur life</h1>
-         <div class="wrapper-content-btn-navbar">
-             <button class="wrapper-content-btn-navbar-product">
-                 <a href="#">products</a>
-             </button>
-             <button class="wrapper-content-btn-navbar-quote">
-                <a href="#">get quotes</a>
-            </button>
-         </div>
-     </div>
-    </div>
-    <button class=" wrapper-icon wrapper-icon-next"><i class=" fas fa-caret-right"></i></button>
+
+            <div class="navbar">
+                <i class="fas fa-bars" id="navbar-btn-menu"></i>
+                <ul class="navbar-container" id="navbar-container">
+                    <li class="navbar-home"><a href="#"><span>home</span></a></li>
+                    <li class="navbar-insurance"><a href="#"><span>insurance</span></a></li>
+                        <li class="navbar-insurance"><a href="#"><span>page</span></a></li>
+                    <li class="navbar-about"> <a href="#">about</a></li>
+                </ul>
+            </div>
+            <div class="wrapper-content df">
+                <p>insur life company</p>
+                <h1>welcome to insur life</h1>
+                <div class="wrapper-content-btn-navbar">
+                    <button class="wrapper-content-btn-navbar-product">
+                        <a href="#">products</a>
+                    </button>
+                    <button class="wrapper-content-btn-navbar-quote">
+                        <a href="#">get quotes</a>
+                    </button>
+                </div>
+            </div>
+        </div>
     </header>
     <section class="body">
         <nav class="products mw70 df" id="products">
             <p>products & services</p>
             <h1 class="title">insurance coverage that fits you</h1>
             <div class="product-container" id="product-container">
-                <button  class="product-container-btn-left product-container-btn" id="left"><i class=" fas fa-caret-left"></i></button>
+                <div class="product-container-btn-prev product-container-btn">
+                    <button id="left"><i class=" fas fa-caret-left"></i></button>
+                </div>
                 <div class="product-img" id="product-img">
-                    
+
                     <div class="product-img-slect slect-home">
                         <img src="../images/slect1.jpg" alt="" srcset="" class="e">
                         <span><i class="fas fa-home"></i>home insurance</span>
@@ -77,182 +82,193 @@
                         <span><i class="fas fa-home"></i>home insurance</span>
                     </div>
                     <div class="product-img-slect slect-auto1">
-                        <img src="../images/slect2.jpg" alt="" srcset=""   class="e">
+                        <img src="../images/slect2.jpg" alt="" srcset="" class="e">
                         <span><i class="fas fa-car"></i>auto insurance</span>
                     </div>
                     <div class="product-img-slect slect-travel1">
-    
-                        <img src="../images/slect3.jpg" alt="" srcset=""class="e">
+
+                        <img src="../images/slect3.jpg" alt="" srcset="" class="e">
                         <span><i class="far fa-map"></i>travel insurance</span>
                     </div>
                     <div class="product-img-slect slect-travel1">
-    
-                        <img src="../images/slect3.jpg" alt="" srcset=""class="e">
+
+                        <img src="../images/slect3.jpg" alt="" srcset="" class="e">
                         <span><i class="far fa-map"></i>travel insurance</span>
                     </div>
                     <div class="product-img-slect slect-travel1">
-    
-                        <img src="../images/slect3.jpg" alt="" srcset=""class="e">
+
+                        <img src="../images/slect3.jpg" alt="" srcset="" class="e">
                         <span><i class="far fa-map"></i>travel insurance</span>
                     </div>
-                    
+
                 </div>
-                <button class="product-container-btn-right  product-container-btn" id="right"><i class=" fas fa-caret-right"></i></button>
+                <div class="product-container-btn-next product-container-btn">
+                    <button id="right"><i class=" fas fa-caret-right"></i></button>
+                </div>
             </div>
         </nav>
         <nav class="featured mw70 df">
             <p>featuread</p>
             <h1>why chosse us</h1>
             <div class="featured-container">
-             <div class="freatued-experience">
-                 <img src="../images/icon-sart_03.png" alt="" class="freatued-experience-logo">
-                 <h1>12 years experience</h1>
-                 <p>enim auctor posuere socvtiosqu taciti semper egestas.</p>
-             </div>
-             <div class="freatued-capital">
-                <img src="../images/icon-dola_03.png" alt="" class="fretued-capital-logo">
-                <h1>big capital</h1>
-                <p>Torquent inceptos nec tempor habitasse mass viverr</p>
-            </div>
-            <div class="freatued-spport">
-                <img src="../images/icon-phone_03.png" alt="" class="fretued-spport-logo">
-                <h1>support 24/7</h1>
-                <p>netus fringilla eros suscipit  ante sociosqu pharetra eget</p>
-            </div>
-            <div class="freatued-priority">
-                <img src="../images/icon-gift_03.png" alt="" class="fretued-priority-logo">
-                <h1>multiple priority</h1>
-                <p>Platea leo vivamus proin mauris varius turpis tempor integer</p>
-            </div>
+                <div class="freatued-experience">
+                    <img src="../images/icon-sart_03.png" alt="" class="freatued-experience-logo">
+                    <h1>12 years experience</h1>
+                    <p>enim auctor posuere socvtiosqu taciti semper egestas.</p>
+                </div>
+                <div class="freatued-capital">
+                    <img src="../images/icon-dola_03.png" alt="" class="fretued-capital-logo">
+                    <h1>big capital</h1>
+                    <p>Torquent inceptos nec tempor habitasse mass viverr</p>
+                </div>
+                <div class="freatued-spport">
+                    <img src="../images/icon-phone_03.png" alt="" class="fretued-spport-logo">
+                    <h1>support 24/7</h1>
+                    <p>netus fringilla eros suscipit ante sociosqu pharetra eget</p>
+                </div>
+                <div class="freatued-priority">
+                    <img src="../images/icon-gift_03.png" alt="" class="fretued-priority-logo">
+                    <h1>multiple priority</h1>
+                    <p>Platea leo vivamus proin mauris varius turpis tempor integer</p>
+                </div>
             </div>
         </nav>
         <nav class="about mw70">
             <div class="about-container">
-            <div class="about-img">
-                <img src="../images/img-about-us_03.jpg" alt="">
-                <div class="about-img-content">
-                    <i class="fas fa-play"></i>
-                <p>play video</p>
+                <div class="about-img">
+                    <img src="../images/img-about-us_03.jpg" alt="">
+                    <div class="about-img-content">
+                        <i class="fas fa-play"></i>
+                        <p>play video</p>
+                    </div>
+                </div>
+                <div class="about-content df">
+                    <p>about us</p>
+                    <h1 class="about-content-title">insur life 2016 - 2018</h1>
+                    <p class="about-content-main">Volutpat dis urna senectus est dictum suscipit curae proin iacu
+                        maecenas,
+                        vel placerat lacus facilisis ad egestas susp vulputate mollis risus,
+                        litora eget elementum eu eros fermentm cubii ornare interdum.
+                        Arcu pellentesque iaculis malesuada neque mollis vel,
+                        urna nam venenatis nostra metus, nullam torquent.</p>
+                    <button class="about-content-btn"><a href="#">about us</a></button>
+                </div>
             </div>
-            </div>
-            <div class="about-content df">
-                <p>about us</p>
-                <h1 class="about-content-title">insur life 2016 - 2018</h1>
-                    <p class="about-content-main">Volutpat dis urna senectus est dictum suscipit curae proin iacu maecenas,
-                       vel placerat lacus facilisis ad egestas susp vulputate mollis risus,
-                       litora eget elementum eu eros fermentm cubii ornare interdum.
-                       Arcu pellentesque iaculis malesuada neque mollis vel,
-                       urna nam venenatis nostra metus, nullam torquent.</p>
-                <button class="about-content-btn"><a href="#">about us</a></button>
-            </div>
-        </div>
         </nav>
         <nav class="explore">
             <div class="explore-container mw70">
                 <p>explore us</p>
                 <div class="explore-content">
-                   
+
                     <div class="explore-content-main">
-                     
+
                         <h1 class="explore-content-main-title">find an agents near you</h1>
-                        <p class="explore-content-main-content">Volutpat dis urna senectus est dictum suscipit curae proin iacu maecenas,
+                        <p class="explore-content-main-content">Volutpat dis urna senectus est dictum suscipit curae
+                            proin iacu maecenas,
                             vel placerat lacus facilisis ad egestas susp vulputate mollis risus,
-                             litora eget elementum eu eros.</p>
+                            litora eget elementum eu eros.</p>
                         <button class="explore-content-btn"><a href="#">find agents now</a></button>
                     </div>
                     <img src="../images/img-map_03.png" alt="" class="explore-content-img-map">
                 </div>
                 <div class="explore-view">
-                  <div><h1>12</h1><span>12 agents are serving</span> </div>
-                  <div> <h1>2k+ </h1><span>over 2 thousand customers</span></div>
-                  <div><h1>3k+</h1> <span>previde more 3000 service</span></div>
+                    <div>
+                        <h1>12</h1><span>12 agents are serving</span>
+                    </div>
+                    <div>
+                        <h1>2k+ </h1><span>over 2 thousand customers</span>
+                    </div>
+                    <div>
+                        <h1>3k+</h1> <span>previde more 3000 service</span>
+                    </div>
                 </div>
             </div>
         </nav>
         <nav class="testimonial award mw70">
             <div class="container">
-              <div class="testimonial-container df">
-                 <div class="testimonial-content">
-                      <p>testimonial</p>
-                  <h1>customer feedback about us</h1>
-                 <p class="testimonial-content-main">"Lorem ipsum dolor sit amet consectetur adipiscing elit
-                      sem libero lacinia condime phasellus a venenatis donec dignissim
-                      , inceptos id netus curabitur in integer facilisis
-                       senec himenaeos pulvinar hac eros odio convallis."
-                </p>
-            </div>
-            <div class="testimonial-person">
-                <div class="testimonial-person-infor">
-                    <img src="../images/avatar-person_03.jpg" alt="">
-                    <div class="testimonial-person-infor-main">
-                    <p class="testimonial-person-infor-main-name">alexandra mariao</p>
-                    <p class="testimonial-person-infor-main-adress">form viet nam</p>
+                <div class="testimonial-container df">
+                    <div class="testimonial-content">
+                        <p>testimonial</p>
+                        <h1>customer feedback about us</h1>
+                        <p class="testimonial-content-main">"Lorem ipsum dolor sit amet consectetur adipiscing elit
+                            sem libero lacinia condime phasellus a venenatis donec dignissim
+                            , inceptos id netus curabitur in integer facilisis
+                            senec himenaeos pulvinar hac eros odio convallis."
+                        </p>
+                    </div>
+                    <div class="testimonial-person">
+                        <div class="testimonial-person-infor">
+                            <img src="../images/avatar-person_03.jpg" alt="">
+                            <div class="testimonial-person-infor-main">
+                                <p class="testimonial-person-infor-main-name">alexandra mariao</p>
+                                <p class="testimonial-person-infor-main-adress">form viet nam</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-person-infor-else">
+                            <i class=" testimonial-person-infor-else-icon-prev fas fa-caret-left"></i>
+                            <i class=" testimonial-person-infor-else-icon-next fas fa-caret-right"></i>
+                        </div>
+                    </div>
                 </div>
+                <div class="award-container df">
+                    <h1>our awards</h1>
+                    <img src="../images/img-brand1_03.jpg" alt="" class="award-img">
+                    <img src="../images/img-brand2_03.jpg" alt="" class="award-img">
+                    <img src="../images/img-brand3_03.jpg" alt="" class="award-img">
                 </div>
-                <div class="testimonial-person-infor-else">
-                    <i class=" testimonial-person-infor-else-icon-prev fas fa-caret-left"></i>
-                    <i class=" testimonial-person-infor-else-icon-next fas fa-caret-right"></i>
-                </div>
-            </div>
-              </div>
-              <div class="award-container df">
-                  <h1>our awards</h1>
-                  <img src="../images/img-brand1_03.jpg" alt="" class="award-img">
-                  <img src="../images/img-brand2_03.jpg" alt="" class="award-img">
-                  <img src="../images/img-brand3_03.jpg" alt="" class="award-img">
-              </div>
             </div>
         </nav>
         <nav class="news mw70">
             <p class="new title">the news</p>
-              <h1 class="news-title">our latest news</h1>
-           <div class="news-container">
-              
-              <div class="news-twitter df">
-                  <h1>twitter post</h1>
-                <i class="news-twitter-icon fab fa-twitter"></i>
-                <p class="news-twitter-content">Viverra risus penatibus commodo nullam blandit ac arcu , pharetra facilisi leo quis nostra est quam...
-                </p>
-                <span class="news-twitter-link"></span>
-              
-                   <a class="news-twitter-link">  
-                    https://twitter.com/mitchellvii
-                    /status/
-                    1057410111151501312
+            <h1 class="news-title">our latest news</h1>
+            <div class="news-container">
+
+                <div class="news-twitter df">
+                    <h1>twitter post</h1>
+                    <i class="news-twitter-icon fab fa-twitter"></i>
+                    <p class="news-twitter-content">Viverra risus penatibus commodo nullam blandit ac arcu , pharetra
+                        facilisi leo quis nostra est quam...
+                    </p>
+                    <span class="news-twitter-link"></span>
+
+                    <a class="news-twitter-link">
+                        https://twitter.com/mitchellvii
+                        /status/
+                        1057410111151501312
                     </a>
-              </div>
-              <div class="news-press">
-                  <div class="news-press-container df">
-                  <h1>company press</h1>
-                  <p class="news-press-title">
-                      5 tips for saving the future while still enjoying life
-                  </p>
-                  <p class="news-press-content">Erat cursus nunc hendrerit a nam ultricies sagittis arcu,
-                       mi habitasse volutpat nulla torquent risus at proin blandit,
-                        ac sed magna tincidunt massa mus tristique.
-                         Lacus placerat blandit eget pretium tellus lacinia praesent
-                          potenti cubilia dis.
+                </div>
+                <div class="news-press">
+                    <div class="news-press-container df">
+                        <h1>company press</h1>
+                        <p class="news-press-title">
+                            5 tips for saving the future while still enjoying life
+                        </p>
+                        <p class="news-press-content">Erat cursus nunc hendrerit a nam ultricies sagittis arcu,
+                            mi habitasse volutpat nulla torquent risus at proin blandit,
+                            ac sed magna tincidunt massa mus tristique.
+                            Lacus placerat blandit eget pretium tellus lacinia praesent
+                            potenti cubilia dis.
                         </p>
                         <div class="news-press-btn-change timewrite df">
                             <p class="news-press-timewrite">octorber 22 , 2018</p>
                             <div class="news-press-btn-change-main">
-                            <div class="news-press-backkground-1"></div>
-                            <div class="news-press-backkground-2"></div>
-                            <div class="news-press-backkground-3"></div>
+                                <div class="news-press-backkground-1"></div>
+                                <div class="news-press-backkground-2"></div>
+                                <div class="news-press-backkground-3"></div>
+                            </div>
                         </div>
-                        </div>
-                        
-                       
-              </div>
-             
+
+
+                    </div>
+
+                </div>
             </div>
-           </div>
-           <form action="#" class="news-subscribe">
-            <input type="text" name="news-subscribe-content" placeholder="subscribe to our newsletter">
-            <input type="submit" value="subscribe">
-            
-        </form>
-        <hr>
+            <form action="#" class="news-subscribe">
+                <input type="text" name="news-subscribe-content" placeholder="subscribe to our newsletter">
+                <input type="submit" value="subscribe">
+
+            </form>
+            <hr>
         </nav>
 
     </section>
@@ -262,15 +278,15 @@
                 <h1>our partner</h1>
                 <div class="partner-content">
                     <div><img src="../images/logo-partner1.jpg" alt=""></div>
-                <div><img src="../images/logo-partner2.jpg" alt=""></div>
-            <div><img src="../images/logo-partner3.jpg" alt=""></div>
-        <div><img src="../images/logo-partner4.jpg" alt=""></div>
+                    <div><img src="../images/logo-partner2.jpg" alt=""></div>
+                    <div><img src="../images/logo-partner3.jpg" alt=""></div>
+                    <div><img src="../images/logo-partner4.jpg" alt=""></div>
                 </div>
             </div>
         </div>
         <div class="contact mw70">
             <div class="contact-container">
-            <div class="contact-left">
+                <div class="contact-left">
                     <h1>contact us</h1>
                     <div class="contact-adress-phone">
                         <i class="fas fa-phone-alt"></i>
@@ -285,31 +301,32 @@
                         <p>Info.insurlife@gmail.com</p>
                     </div>
                 </div>
-           
-            <div class="contact-main df">
-                <img src="../images/logo2.png" alt="" class="logo">
-                <p class="conact-main-inforweb">copyright © 2018 <span>insur life</span>, 
-                    Insurance website, 
-                    design by Wordpress
-                </p>
-                <div class="contact-main-link">
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                <div class="contact-main df">
+                    <img src="../images/logo2.png" alt="" class="logo">
+                    <p class="conact-main-inforweb">copyright © 2018 <span>insur life</span>,
+                        Insurance website,
+                        design by Wordpress
+                    </p>
+                    <div class="contact-main-link">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right df">
+                    <h1>other link</h1>
+                    <a href="#">company history</a>
+                    <a href="#">product & services</a>
+                    <a href="#">term of us</a>
+                    <a href="#">privacy</a>
+                    <a href="#">security</a>
                 </div>
             </div>
-            <div class="contact-right df">
-               <h1>other link</h1>
-               <a href="#">company history</a>
-               <a href="#">product & services</a>
-               <a href="#">term of us</a>
-               <a href="#">privacy</a>
-               <a href="#">security</a>
-            </div>
         </div>
-    </div>
     </footer>
     <script src="./main.js"></script>
 </body>
+
 </html>
