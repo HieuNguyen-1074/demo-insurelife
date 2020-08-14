@@ -38,7 +38,6 @@ widthElementProductContainer = (Number(widthElementProductContainer));
   
   elementButtonRight.onclick = ()=>{
       if(indexSlice === numberPage - 1 ){
-          console.log('nay');
       }
       else{
       elementProductImg.style.transform = `translateX(-${widthElementProductContainer * s}px)`;
@@ -66,11 +65,15 @@ elementProductContainer.style.height = `${e}`;
 }
 function runSliderProduct(){
   // console.log(document.documentElement.clientWidth);
-  if( document.documentElement.clientWidth <  600){
+  
+   if( document.documentElement.clientWidth  >  600 &&  document.documentElement.clientWidth  < 900){
+    sliderProduct(3);
+  }
+  else if(  document.documentElement.clientWidth  > 400 && document.documentElement.clientWidth <  600){
     sliderProduct(2);
   }
-  else if( document.documentElement.clientWidth  >  600 &&  document.documentElement.clientWidth  < 900){
-    sliderProduct(3);
+  else if( document.documentElement.clientWidth  <   400){
+    sliderProduct(1);
   }
   else{
   sliderProduct(4);
