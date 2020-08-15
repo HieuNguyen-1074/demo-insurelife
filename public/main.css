@@ -498,6 +498,7 @@ i.fas.fa-bars {
         font-size: 1rem;
     } 
     .featured-container > div{
+        padding-left:  0px !important;
         width: 100%;
      }
      .featured-container > div h1{
